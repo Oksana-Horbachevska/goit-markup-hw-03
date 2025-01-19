@@ -59,6 +59,10 @@ img {
 
 /*----------------header-----------------*/
 
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -172,7 +176,7 @@ img {
   border-radius: 4px;
   padding: 16px 32px;
   display: block;
-  margin: 0 aut0;
+  margin: 0 auto;
   min-width: 169px;
   min-height: 56px;
   border: none;
@@ -207,7 +211,7 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.019em;
   color: #434455;
 }
 
@@ -236,7 +240,8 @@ img {
 
 .team-card {
   background-color: #fff;
-  flex-basis: ((100% - 72) - 4);
+  /*flex-basis: ((100% - 72) - 4);*/
+  width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
