@@ -43,6 +43,10 @@ a {
 
 /*--------------common-------------------*/
 
+img {
+  display: block;
+}
+
 .container {
   max-width: 1158px;
   padding: 0 15px;
@@ -171,6 +175,7 @@ a {
   margin: 0 aut0;
   min-width: 169px;
   min-height: 56px;
+  border: none;
 }
 
 .hero-button:hover,
@@ -238,14 +243,19 @@ a {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
+.team-card-container {
+  padding: 32px 0;
+  max-width: 232px;
+  margin: 0 auto;
+}
+
 .team-card-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  max-width: 232px;
-  margin: 32px 16px 0px;
+  margin-bottom: 8px;
   text-align: center;
 }
 
@@ -255,8 +265,6 @@ a {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
-  max-width: 232px;
-  margin: 0 16px;
   text-align: center;
 }
 
@@ -300,6 +308,7 @@ a {
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .portfolio-card-text {
